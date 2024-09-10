@@ -5,6 +5,10 @@ import typing
 import argparse
 import llm_eval_utils as leu
 
+"""
+Program to feed a prompt describing the alternate uses test (AUT) to an LLM, get the response, and write it out to a file,
+"""
+
 def main() -> None:
 
     parser = argparse.ArgumentParser()
@@ -35,7 +39,7 @@ def main() -> None:
         output_path = Path(args.file)
 
     if args.verbose:
-        rint(f"Output path: {output_path}")
+        print(f"Output path: {output_path}")
 
     with open(output_path, 'w') as f:
         # set up our AUT prompt 

@@ -5,6 +5,13 @@ import re
 import json
 from prometheus_eval.prompts import ABSOLUTE_PROMPT, SCORE_RUBRIC_TEMPLATE
 
+def raw_extract_responses(filename: str) -> List[str]:
+    """Opens and iterates through the given file, nor processing, so raw response, & returns them in a list."""
+    responses = []
+    f = open(file=filename, mode='r')
+    responses = f.read()
+    return responses
+
 def extract_responses(filename: str, expr: str) -> List[str]:
     """Opens and iterates through the given file, uses the given regular experssion to match responses, returns them in a list."""
     responses = []
@@ -12,11 +19,12 @@ def extract_responses(filename: str, expr: str) -> List[str]:
         text = f.readline()
         while text:
             match = re.search(expr, text)
-            # we're occasionally getting empty atches here, so let's avoid that ...
-            if match and len(match.group(1)) > 0:
+            # we're occasionally getting empty matches here, so let's avoid that ...
+            #if match and len(match.group(1)) > 0:
+            if match:
                 responses.append(match.group(1))
             text = f.readline()
-
+            print(f"Text: {text}")
     return responses
 
 def send_request(role: str, message: str, temperature=0.7) -> typing.Any:
@@ -84,7 +92,7 @@ The random object is:
 Please provide 40 examples.
 """
     
-def match_bot_response(bot_response: str, result_pattern: str = r"\[RESULT\]\s(\w)") -> str:
+def match_bot_response(bot_response: str, result_pattern: str = r"\[RESULT\]\s(\d)") -> str:
     match = re.search(result_pattern, bot_response)
     if match:
         return match.group(1)

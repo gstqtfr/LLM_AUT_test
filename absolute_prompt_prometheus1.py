@@ -9,11 +9,22 @@ from typing import List
 import argparse
 import llm_eval_utils as leu
 
+"""
+This code instructs Prometheus to evaluate an attempt on the Alternate Uses Test.
+
+The code assumes that soe version of `prometheus-eval` is running locally.
+
+The score varies between 1-5, with 5 being the highest mark, & uses the absolute score - i.e. not relative bwteen two or more responses.
+No 'ground-truth' statement  or 'corretc answer' is given, since the task is inherently creative.
+
+The rubric is given in the `llm_eval_utils` module.
+"""
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("-r", "--response", required=True)
     parser.add_argument("-obj", required=True)
-    parser.add_argument('--verbose', action='store_false', default=False)
+    parser.add_argument('-v', '--verbose', action='store_true', default=False)
 
     args = parser.parse_args()
 
@@ -27,15 +38,13 @@ def main() -> None:
     score_rubric = leu.build_rubric(obj=args.obj)
 
      # this is how we match numbered (some Roman numeral'd!) lists of responses from the LLMs
+     # probably unnecessary, but might be useful for some LLM outputs, so included for completeness
     pattern = r"^.*\.\s(.*)$"
 
-    # slurp our data from the given LLM response file
-    response_list = leu.extract_responses(filename=r, expr=pattern)
-    # print(f"LLM response:\n\n{response1_list}")
+    llm_response = leu.raw_extract_responses(filename=r)
 
-    # get all our responses into a (long) string
-    llm_response = '\n'.join(map(str, response_list))
-    # print(f"Response list:\n\n{llm_response}")
+    if args.verbose:
+        print(f"LLM response:\n\n{llm_response}")
 
     # AUT (original) prompt
     instruction = leu.build_orig_instruction(obj=args.obj)
