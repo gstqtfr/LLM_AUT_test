@@ -5,12 +5,8 @@ from prometheus_eval import PrometheusEval
 from prometheus_eval.prompts import ABSOLUTE_PROMPT, SCORE_RUBRIC_TEMPLATE
 
 from pathlib import Path
-import typing
 from typing import List
-import requests
-import json
 import argparse
-import re
 import llm_eval_utils as leu
 
 def main() -> None:
