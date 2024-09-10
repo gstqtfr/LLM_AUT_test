@@ -4,4 +4,5 @@ __pycache__/
 *.log
 *.txt
 venv/
+.venv/
 chroma_db_nccn/
