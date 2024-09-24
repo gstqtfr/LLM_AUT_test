@@ -176,12 +176,12 @@ An instruction (might include an Input inside it), a response to evaluate, a ref
 def build_rubric(obj: str) -> str:
     """Build up our socring rubric."""
     rubric_data = {
-        "criteria":f"Is the model responding with creative, fluent, original, and flexibile alternate uses of the given object, {obj}?",
+        "criteria":f"Is the model responding with creative, fluent, original, and flexible alternate uses of the given object, {obj}?",
         "score1_description":"The model shows little creative, fluent, original and flexible alternate uses of the object.",
         "score2_description":"The model has some creative, fluent, original and flexible alternate uses of the object.",
         "score3_description":"The model shows some creativity and originality in its alternate uses of the object.",
         "score4_description":"The model consistently identifies creative, fluent, original and flexible alternate uses of the object.",
-        "score5_description":"The model excels in identifying creative, fluent, original and flexible alternate uses of the object.."
+        "score5_description":"The model excels in identifying creative, fluent, original and flexible alternate uses of the object."
     }
     score_rubric = SCORE_RUBRIC_TEMPLATE.format(**rubric_data)
     return score_rubric
