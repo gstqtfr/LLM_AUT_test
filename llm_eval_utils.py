@@ -48,6 +48,8 @@ def send_request(role: str, message: str, temperature=0.7) -> typing.Any:
 
     # Send POST request
     response = requests.post(url, headers=headers, data=json.dumps(payload))
+    #response.config['keep_alive'] = False
+    response.headers["Connection"] = "close"
 
     # Check for successful response
     if response.status_code == 200:
@@ -89,7 +91,7 @@ The random object is:
 
 {object}
 
-Please provide 40 examples.
+Please provide 30 examples.
 """
     
 def match_bot_response(bot_response: str, result_pattern: str = r"\[RESULT\]\s(\d)") -> str:
