@@ -91,7 +91,7 @@ The random object is:
 
 {object}
 
-Please provide 30 examples.
+Please provide 60 examples.
 """
     
 def match_bot_response(bot_response: str, result_pattern: str = r"\[RESULT\]\s(\d)") -> str:
