@@ -1,0 +1,287 @@
+\begin{thebibliography}{38}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Agarwal et~al.(2024)Agarwal, Singh, Zhang, Bohnet, Rosias, Chan,
+  Zhang, Anand, Abbas, Nova, Co-Reyes, Chu, Behbahani, Faust, and
+  Larochelle]{agarwal2024manyshotincontextlearning}
+R.~Agarwal, A.~Singh, L.~M. Zhang, B.~Bohnet, L.~Rosias, S.~Chan, B.~Zhang,
+  A.~Anand, Z.~Abbas, A.~Nova, J.~D. Co-Reyes, E.~Chu, F.~Behbahani, A.~Faust,
+  and H.~Larochelle.
+\newblock {Many-Shot In-Context Learning}, 2024.
+\newblock URL \url{https://arxiv.org/abs/2404.11018}.
+
+\bibitem[Birss(2024)]{davebirss}
+D.~Birss, 2024.
+\newblock URL \url{https://davebirss.com/altuses/}.
+
+\bibitem[Brown et~al.(2020)Brown, Mann, Ryder, Subbiah, Kaplan, Dhariwal,
+  Neelakantan, Shyam, Sastry, Askell, Agarwal, Herbert-Voss, Krueger, Henighan,
+  Child, Ramesh, Ziegler, Wu, Winter, Hesse, Chen, Sigler, Litwin, Gray, Chess,
+  Clark, Berner, McCandlish, Radford, Sutskever, and
+  Amodei]{brown2020languagemodelsfewshotlearners}
+T.~B. Brown, B.~Mann, N.~Ryder, M.~Subbiah, J.~Kaplan, P.~Dhariwal,
+  A.~Neelakantan, P.~Shyam, G.~Sastry, A.~Askell, S.~Agarwal, A.~Herbert-Voss,
+  G.~Krueger, T.~Henighan, R.~Child, A.~Ramesh, D.~M. Ziegler, J.~Wu,
+  C.~Winter, C.~Hesse, M.~Chen, E.~Sigler, M.~Litwin, S.~Gray, B.~Chess,
+  J.~Clark, C.~Berner, S.~McCandlish, A.~Radford, I.~Sutskever, and D.~Amodei.
+\newblock {Language Models are Few-Shot Learners}, 2020.
+\newblock URL \url{https://arxiv.org/abs/2005.14165}.
+
+\bibitem[Chiang and Lee(2023)]{chiang-lee-2023-large}
+C.-H. Chiang and H.-y. Lee.
+\newblock Can large language models be an alternative to human evaluations?
+\newblock In A.~Rogers, J.~Boyd-Graber, and N.~Okazaki, editors,
+  \emph{Proceedings of the 61st Annual Meeting of the Association for
+  Computational Linguistics (Volume 1: Long Papers)}, pages 15607--15631,
+  Toronto, Canada, July 2023. Association for Computational Linguistics.
+\newblock \doi{10.18653/v1/2023.acl-long.870}.
+\newblock URL \url{https://aclanthology.org/2023.acl-long.870}.
+
+\bibitem[CreativeHuddle(2024)]{creativehuddle}
+CreativeHuddle, 2024.
+\newblock URL
+  \url{https://www.creativehuddle.co.uk/post/the-alternative-uses-test}.
+
+\bibitem[Dong et~al.(2024)Dong, Li, Dai, Zheng, Ma, Li, Xia, Xu, Wu, Chang,
+  Sun, Li, and Sui]{dong2024surveyincontextlearning}
+Q.~Dong, L.~Li, D.~Dai, C.~Zheng, J.~Ma, R.~Li, H.~Xia, J.~Xu, Z.~Wu, B.~Chang,
+  X.~Sun, L.~Li, and Z.~Sui.
+\newblock {A Survey on In-context Learning}, 2024.
+\newblock URL \url{https://arxiv.org/abs/2301.00234}.
+
+\bibitem[Dubois et~al.(2023)Dubois, Li, Taori, Zhang, Gulrajani, Ba, Guestrin,
+  Liang, and Hashimoto]{dubois2023alpacafarm}
+Y.~Dubois, X.~Li, R.~Taori, T.~Zhang, I.~Gulrajani, J.~Ba, C.~Guestrin,
+  P.~Liang, and T.~B. Hashimoto.
+\newblock {AlpacaFarm: A Simulation Framework for Methods that Learn from Human
+  Feedback}, 2023.
+
+\bibitem[Gao et~al.(2024)Gao, Hu, Ruan, Pu, and
+  Wan]{gao2024llmbasednlgevaluationcurrent}
+M.~Gao, X.~Hu, J.~Ruan, X.~Pu, and X.~Wan.
+\newblock {LLM-based NLG Evaluation: Current Status and Challenges}, 2024.
+\newblock URL \url{https://arxiv.org/abs/2402.01383}.
+
+\bibitem[G{\'o}es et~al.(2023)G{\'o}es, Volpe, Sawicki, Grses, and
+  Watson]{goes2023pushing}
+L.~F. G{\'o}es, M.~Volpe, P.~Sawicki, M.~Grses, and J.~Watson.
+\newblock {Pushing GPT’s creativity to its limits: Alternative uses and
+  Torrance tests}.
+\newblock 2023.
+
+\bibitem[Guilford et~al.(1978)Guilford, Christensen, Merrifield, and
+  Wilson]{guilford1978alternate}
+J.~Guilford, P.~Christensen, P.~Merrifield, and R.~Wilson.
+\newblock {Alternate Uses: Manual of instructions and interpretations. Palo
+  Alto}.
+\newblock \emph{CA: Mind Garden}, 1978.
+
+\bibitem[Haase and Hanel(2023)]{Haase_2023}
+J.~Haase and P.~H. Hanel.
+\newblock {Artificial muses: Generative artificial intelligence chatbots have
+  risen to human-level creativity}.
+\newblock \emph{Journal of Creativity}, 33\penalty0 (3):\penalty0 100066, Dec.
+  2023.
+\newblock ISSN 2713-3745.
+\newblock \doi{10.1016/j.yjoc.2023.100066}.
+\newblock URL \url{http://dx.doi.org/10.1016/j.yjoc.2023.100066}.
+
+\bibitem[Kim et~al.(2024{\natexlab{a}})Kim, Shin, Cho, Jang, Longpre, Lee, Yun,
+  Shin, Kim, Thorne, and Seo]{kim2024prometheusinducingfinegrainedevaluation}
+S.~Kim, J.~Shin, Y.~Cho, J.~Jang, S.~Longpre, H.~Lee, S.~Yun, S.~Shin, S.~Kim,
+  J.~Thorne, and M.~Seo.
+\newblock {Prometheus: Inducing Fine-grained Evaluation Capability in Language
+  Models}, 2024{\natexlab{a}}.
+\newblock URL \url{https://arxiv.org/abs/2310.08491}.
+
+\bibitem[Kim et~al.(2024{\natexlab{b}})Kim, Suk, Longpre, Lin, Shin, Welleck,
+  Neubig, Lee, Lee, and Seo]{kim2024prometheus2opensource}
+S.~Kim, J.~Suk, S.~Longpre, B.~Y. Lin, J.~Shin, S.~Welleck, G.~Neubig, M.~Lee,
+  K.~Lee, and M.~Seo.
+\newblock {Prometheus 2: An Open Source Language Model Specialized in
+  Evaluating Other Language Models}, 2024{\natexlab{b}}.
+\newblock URL \url{https://arxiv.org/abs/2405.01535}.
+
+\bibitem[Kozbelt et~al.(2010)Kozbelt, Beghetto, and Runco]{kozbelt2010theories}
+A.~Kozbelt, R.~A. Beghetto, and M.~A. Runco.
+\newblock {Theories of creativity}.
+\newblock \emph{The Cambridge handbook of creativity}, 2:\penalty0 20--47,
+  2010.
+
+\bibitem[Lee et~al.(2024)Lee, Cai, Meng, Wang, and
+  Wu]{lee2024promptinglargelanguagemodels}
+S.~Lee, Y.~Cai, D.~Meng, Z.~Wang, and Y.~Wu.
+\newblock {Prompting Large Language Models for Zero-shot Essay Scoring via
+  Multi-trait Specialization}, 2024.
+\newblock URL \url{https://arxiv.org/abs/2404.04941}.
+
+\bibitem[Leonov(2024)]{prometheus_huggingface}
+S.~Leonov.
+\newblock {Prometheus-7b-v2.0}, 2024.
+\newblock URL \url{https://huggingface.co/vsevolodl/prometheus-7b-v2.0-GGUF}.
+
+\bibitem[Li et~al.(2024)Li, Xu, Shen, Xu, Gu, Lai, Tao, and
+  Ma]{li2024leveraginglargelanguagemodels}
+Z.~Li, X.~Xu, T.~Shen, C.~Xu, J.-C. Gu, Y.~Lai, C.~Tao, and S.~Ma.
+\newblock {Leveraging Large Language Models for NLG Evaluation: Advances and
+  Challenges}, 2024.
+\newblock URL \url{https://arxiv.org/abs/2401.07103}.
+
+\bibitem[Lin(2004)]{lin-2004-rouge}
+C.-Y. Lin.
+\newblock {ROUGE}: A package for automatic evaluation of summaries.
+\newblock In \emph{Text Summarization Branches Out}, pages 74--81, Barcelona,
+  Spain, July 2004. Association for Computational Linguistics.
+\newblock URL \url{https://aclanthology.org/W04-1013}.
+
+\bibitem[Norman(2010)]{norman2010likert}
+G.~Norman.
+\newblock Likert scales, levels of measurement and the “laws” of
+  statistics.
+\newblock \emph{Advances in health sciences education}, 15:\penalty0 625--632,
+  2010.
+
+\bibitem[Organisciak et~al.(2023)Organisciak, Acar, Dumas, and
+  Berthiaume]{organisciak2023beyond}
+P.~Organisciak, S.~Acar, D.~Dumas, and K.~Berthiaume.
+\newblock {Beyond semantic distance: Automated scoring of divergent thinking
+  greatly improves with large language models}.
+\newblock \emph{Thinking Skills and Creativity}, 49:\penalty0 101356, 2023.
+
+\bibitem[Papineni et~al.(2002)Papineni, Roukos, Ward, and
+  Zhu]{papineni-etal-2002-bleu}
+K.~Papineni, S.~Roukos, T.~Ward, and W.-J. Zhu.
+\newblock {B}leu: a method for automatic evaluation of machine translation.
+\newblock In P.~Isabelle, E.~Charniak, and D.~Lin, editors, \emph{Proceedings
+  of the 40th Annual Meeting of the Association for Computational Linguistics},
+  pages 311--318, Philadelphia, Pennsylvania, USA, July 2002. Association for
+  Computational Linguistics.
+\newblock \doi{10.3115/1073083.1073135}.
+\newblock URL \url{https://aclanthology.org/P02-1040}.
+
+\bibitem[Plucker(2010)]{plucker2010assessment}
+J.~Plucker.
+\newblock \emph{{Assessment of creativity}}.
+\newblock The Cambridge Handbook of Creativity/Cambridge University Press,
+  2010.
+
+\bibitem[Raventós et~al.(2023)Raventós, Paul, Chen, and
+  Ganguli]{raventós2023pretrainingtaskdiversityemergence}
+A.~Raventós, M.~Paul, F.~Chen, and S.~Ganguli.
+\newblock {Pretraining task diversity and the emergence of non-Bayesian
+  in-context learning for regression}, 2023.
+\newblock URL \url{https://arxiv.org/abs/2306.15063}.
+
+\bibitem[Runco and Albert(1990)]{runco1990theories}
+M.~A. Runco and R.~S. Albert.
+\newblock \emph{{Theories of creativity}}, volume 990.
+\newblock Sage Publications London, 1990.
+
+\bibitem[Runco and Jaeger(2012)]{runco2012standard}
+M.~A. Runco and G.~J. Jaeger.
+\newblock {The standard definition of creativity}.
+\newblock \emph{Creativity research journal}, 24\penalty0 (1):\penalty0 92--96,
+  2012.
+
+\bibitem[Simonton(2018)]{simonton2018defining}
+D.~K. Simonton.
+\newblock {Defining creativity: Don't we also need to define what is not
+  creative?}
+\newblock \emph{The Journal of Creative Behavior}, 52\penalty0 (1):\penalty0
+  80--90, 2018.
+
+\bibitem[Stevenson et~al.(2022{\natexlab{a}})Stevenson, Smal, Baas, Grasman,
+  and van~der Maas]{stevenson2022dataset}
+C.~Stevenson, I.~Smal, M.~Baas, R.~Grasman, and H.~van~der Maas.
+\newblock {Dataset for: Putting GPT-3's Creativity to the (Alternative Uses)
+  Test}, 2022{\natexlab{a}}.
+\newblock URL \url{https://osf.io/vmk3c/}.
+
+\bibitem[Stevenson et~al.(2022{\natexlab{b}})Stevenson, Smal, Baas, Grasman,
+  and van~der Maas]{stevenson2022puttinggpt3screativityalternative}
+C.~Stevenson, I.~Smal, M.~Baas, R.~Grasman, and H.~van~der Maas.
+\newblock Putting gpt-3's creativity to the (alternative uses) test,
+  2022{\natexlab{b}}.
+\newblock URL \url{https://arxiv.org/abs/2206.08932}.
+
+\bibitem[Sullivan and Artino(2013)]{Sullivan_2013}
+G.~M. Sullivan and A.~R. Artino.
+\newblock Analyzing and interpreting data from likert-type scales.
+\newblock \emph{Journal of Graduate Medical Education}, 5\penalty0
+  (4):\penalty0 541–542, Dec. 2013.
+\newblock ISSN 1949-8349.
+\newblock \doi{10.4300/jgme-5-4-18}.
+\newblock URL \url{http://dx.doi.org/10.4300/JGME-5-4-18}.
+
+\bibitem[Sun et~al.(2023)Sun, Gu, Myers, and Yuan]{AUTdataset}
+L.~Sun, H.~Gu, R.~Myers, and Z.~Yuan.
+\newblock Cambridge-aut-dataset, 2023.
+\newblock URL \url{https://github.com/ghydsgaaa/Cambridge-AUT-dataset}.
+
+\bibitem[Sun et~al.(2024)Sun, Gu, Myers, and Yuan]{Sun_2024}
+L.~Sun, H.~Gu, R.~Myers, and Z.~Yuan.
+\newblock {A New Dataset and Method for Creativity Assessment Using the
+  Alternate Uses Task}.
+\newblock \emph{Intelligent Computers, Algorithms, and Applications}, page
+  125–138, 2024.
+\newblock ISSN 1865-0937.
+\newblock \doi{10.1007/978-981-97-0065-3_9}.
+\newblock URL \url{http://dx.doi.org/10.1007/978-981-97-0065-3_9}.
+
+\bibitem[Wang et~al.(2024)Wang, Yu, Zeng, Yang, Wang, Chen, Jiang, Xie, Wang,
+  Xie, Ye, Zhang, and Zhang]{wang2024pandalmautomaticevaluationbenchmark}
+Y.~Wang, Z.~Yu, Z.~Zeng, L.~Yang, C.~Wang, H.~Chen, C.~Jiang, R.~Xie, J.~Wang,
+  X.~Xie, W.~Ye, S.~Zhang, and Y.~Zhang.
+\newblock {PandaLM: An Automatic Evaluation Benchmark for LLM Instruction
+  Tuning Optimization}, 2024.
+\newblock URL \url{https://arxiv.org/abs/2306.05087}.
+
+\bibitem[Weisberg(2016)]{weisberg2016creativity}
+R.~W. Weisberg.
+\newblock \emph{{Creativity: Understanding innovation in problem solving,
+  science, invention, and the arts}}.
+\newblock John Wiley \& Sons, 2016.
+
+\bibitem[Xiao et~al.(2024)Xiao, Ma, Song, Xu, Zhang, Wang, and
+  Fu]{xiao2024humanaicollaborativeessayscoring}
+C.~Xiao, W.~Ma, Q.~Song, S.~X. Xu, K.~Zhang, Y.~Wang, and Q.~Fu.
+\newblock {Human-AI Collaborative Essay Scoring: A Dual-Process Framework with
+  LLMs}, 2024.
+\newblock URL \url{https://arxiv.org/abs/2401.06431}.
+
+\bibitem[Yang et~al.(2024)Yang, Li, Dong, Xia, and
+  Sui]{yang2024largemultimodalmodelsuncover}
+Y.~Yang, Z.~Li, Q.~Dong, H.~Xia, and Z.~Sui.
+\newblock {Can Large Multimodal Models Uncover Deep Semantics Behind Images?},
+  2024.
+\newblock URL \url{https://arxiv.org/abs/2402.11281}.
+
+\bibitem[Zhao et~al.(2024{\natexlab{a}})Zhao, Zhang, Li, Huang, Guo, Peng, Hao,
+  Wen, Hu, Du, Guo, Li, and
+  Chen]{zhao2024assessingunderstandingcreativitylarge}
+Y.~Zhao, R.~Zhang, W.~Li, D.~Huang, J.~Guo, S.~Peng, Y.~Hao, Y.~Wen, X.~Hu,
+  Z.~Du, Q.~Guo, L.~Li, and Y.~Chen.
+\newblock {Assessing and Understanding Creativity in Large Language Models},
+  2024{\natexlab{a}}.
+\newblock URL \url{https://arxiv.org/abs/2401.12491}.
+
+\bibitem[Zhao et~al.(2024{\natexlab{b}})Zhao, Zhang, Li, Huang, Guo, Peng, Hao,
+  Wen, Hu, Du, et~al.]{zhao2024assessing}
+Y.~Zhao, R.~Zhang, W.~Li, D.~Huang, J.~Guo, S.~Peng, Y.~Hao, Y.~Wen, X.~Hu,
+  Z.~Du, et~al.
+\newblock {Assessing and understanding creativity in large language models}.
+\newblock \emph{arXiv preprint arXiv:2401.12491}, 2024{\natexlab{b}}.
+
+\bibitem[Zheng et~al.(2023)Zheng, Chiang, Sheng, Zhuang, Wu, Zhuang, Lin, Li,
+  Li, Xing, Zhang, Gonzalez, and
+  Stoica]{zheng2023judgingllmasajudgemtbenchchatbot}
+L.~Zheng, W.-L. Chiang, Y.~Sheng, S.~Zhuang, Z.~Wu, Y.~Zhuang, Z.~Lin, Z.~Li,
+  D.~Li, E.~P. Xing, H.~Zhang, J.~E. Gonzalez, and I.~Stoica.
+\newblock {Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena}, 2023.
+\newblock URL \url{https://arxiv.org/abs/2306.05685}.
+
+\end{thebibliography}
