@@ -12,21 +12,6 @@ import configparser
 from time import sleep
 import llm_eval_utils as leu
 
-# TODO: we should slurp this stuff in fom a config file
-#llms = {
-#    'Claude2-Alpaca' : 'TheBloke/claude2-alpaca-13B-GGUF/claude2-alpaca-13b.Q3_K_M.gguf',
-#    'Gemma-2b' : 'lmstudio-ai/gemma-2b-it-GGUF',
-#    'Hermes-2-Pro-Llama': 'NousResearch/Hermes-2-Pro-Llama-3-8B-GGUF',
-#    'Llama-2' : 'YanaS/llama-2-7b-langchain-chat-GGUF',
-#    'Llama-3' : 'lmstudio-community/Meta-Llama-3-8B-Instruct-GGUF',
-#    'Mistral-7B' : 'TheBloke/Mistral-7B-Instruct-v0.2-GGUF',
-#    #'Phi-3.1' : 'lmstudio-community/Phi-3.1-mini-4k-instruct-GGUF',
-#    'Qwen-1.5' : 'Qwen/Qwen1.5-7B-Chat-GGUF'
-#}
-
-# TODO: this stuff, too
-#objects = ['book', 'fork', 'tin-can']
-
 def start_LLM_process(model: str, objects: List, d: Path, iteration: int = 1, llm_cmd: str='prompt_LLM_AUT.py') -> None:
     for obj in objects:
         cmd=f"python {llm_cmd} -d {output_dir} -f {model}-{obj}{iteration}.txt -obj {obj}"

@@ -59,10 +59,10 @@ def main() -> None:
     # ... & present it to `prometheus`
     prometheus_response = leu.send_request(role=role, message=prompt, temperature=0.01)
     bot_response = prometheus_response.get("choices")[0].get("message").get("content") if prometheus_response.get("choices") else "Sorry, I couldn't get a response."
-    print("Bot:", bot_response)
+    print("Bot:", bot_response + "\n")
 
     res = leu.match_bot_response(bot_response=bot_response) 
-    print(f"Evaluation: {res}")
+    print(f"Evaluation: {res}\n")
 
 if __name__ == "__main__":
     main()
